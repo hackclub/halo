@@ -1,2 +1,3 @@
-# la
-hackathon with girl scouts of la / name pending
+# HALO
+**** name pending
+hackathon with girl scouts of la 

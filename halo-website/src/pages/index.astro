@@ -1,1 +1,32 @@
-<h1>Test</h1>
+---
+import Layout from '../layouts/Layout.astro'
+import haloSign from '../images/halo-sign.png'
+---
+<Layout title="Halo">
+    <div class="haloTitle">
+        <img src="src/images/halo-sign.png" alt="Halo" class="title"/>
+    
+    </div>
+
+</Layout>
+
+<style>
+   .haloTitle {
+    background-image: -webkit-gradient(
+      linear, /* Gradient type: linear */
+      left top, left bottom, /* Start and end points */
+      from(#ffeaa0), /* Start color */
+      to(white) /* End color */
+    );
+   } 
+
+   .title {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5%;
+}
+
+</style>
+
+

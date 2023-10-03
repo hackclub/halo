@@ -1,32 +1,60 @@
 ---
 import Layout from '../layouts/Layout.astro'
-import haloSign from '../images/halo-sign.png'
 ---
+
 <Layout title="Halo">
     <div class="haloTitle">
-        <img src="src/images/halo-sign.png" alt="Halo" class="title"/>
-    
+        <div class="collab-container">
+            <img src='src/images/flag.svg' alt="Hack Club Flag" class="collab" />
+            <h2 class="plus">+</h2>
+            <img src='src/images/girlscouts.svg' alt="Girl Scouts" class="collab" />
+        </div>
+        <h1 class="frontpage">present...</h1>
+        <img src='src/images/halo.svg' alt="Halo" class="title" />
     </div>
 
+    <div class="filmContainer">
+
+    </div>
 </Layout>
 
 <style>
-   .haloTitle {
-    background-image: -webkit-gradient(
-      linear, /* Gradient type: linear */
-      left top, left bottom, /* Start and end points */
-      from(#ffeaa0), /* Start color */
-      to(white) /* End color */
-    );
-   } 
+    .haloTitle {
+        background-image: -webkit-gradient(
+            linear, /* Gradient type: linear */
+            left top,
+            left bottom, /* Start and end points */
+            from(#ffeaa0), /* Start color */
+            to(white) /* End color */
+        );
+        display: flex;
+        flex-direction: column; /* Arrange items vertically */
+        justify-content: center; /* Vertically center content */
+        align-items: center; /* Horizontally center content */
+        text-align: center; /* Center text */
+        height: 100vh;
+    }
 
-   .title {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 5%;
-}
+    .collab-container {
+        display: flex;
+        align-items: center; 
+    }
+    .plus {
+        font-size: 5rem;
+        margin: 0 1rem; 
+        font-family: "Limelight";
+        font-weight: bold;
 
+    }
+
+    .title {
+        display: block;
+    }
+
+    .frontpage {
+        font-size: 6rem; 
+        margin: 0.5rem 0; 
+        font-family: "Limelight";
+        font-weight: bold;
+    }
 </style>
-
-

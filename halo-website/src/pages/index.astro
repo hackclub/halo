@@ -11,27 +11,62 @@ import Layout from '../layouts/Layout.astro'
         </div>
         <h1 class="frontpage">present...</h1>
         <img src='src/images/halo.svg' alt="Halo" class="title" />
+        <h2 class="dateAndTime">NOVEMBER 4 • LOS ANGELES, CA</h2>
     </div>
 
-    <div class="filmContainer">
+    <div class="polaroids-container">
+        <div class="polaroid angled negative">
+          <div class="polaroid-content">
+            <img src="src/images/0.jpg" alt="Image at Assemble">
+            <div class="description">8/6/22 - Assemble, SF</div>
+          </div>
+        </div>
+      
+        <div class="polaroid angled positive">
+          <div class="polaroid-content">
+            <img src="src/images/alpine.jpeg" alt="Image at Alpine Hackathon Workshop">
+            <div class="description">7/15/23 - Alpine, SLC</div>
+          </div>
+        </div>
+      
+        <div class="polaroid angled negative">
+            <div class="polaroid-content">
+              <img src="src/images/horizon.png" alt="Image 4">
+              <div class="description">3/15/23 - Horizon, NYC</div>
+            </div>
+          </div>
+        <div class="polaroid angled positive">
+          <div class="polaroid-content">
+            <img src="src/images/epoch.jpg" alt="Image 3">
+            <div class="description">12/20/22 - Epoch, SF</div>
+          </div>
+        </div>
+      
+        <div class="polaroid angled negative">
+          <div class="polaroid-content">
+            <img src="src/images/spark.jpg" alt="Image 5">
+            <div class="description">8/12/23 - Spark, SF</div>
+          </div>
+        </div>
+      </div>
+      
 
-    </div>
 </Layout>
 
 <style>
     .haloTitle {
         background-image: -webkit-gradient(
-            linear, /* Gradient type: linear */
+            linear, 
             left top,
-            left bottom, /* Start and end points */
-            from(#ffeaa0), /* Start color */
-            to(white) /* End color */
+            left bottom, 
+            from(#ffeaa0), 
+            to(white) 
         );
         display: flex;
-        flex-direction: column; /* Arrange items vertically */
-        justify-content: center; /* Vertically center content */
-        align-items: center; /* Horizontally center content */
-        text-align: center; /* Center text */
+        flex-direction: column;
+        justify-content: center; 
+        align-items: center; 
+        text-align: center;
         height: 100vh;
     }
 
@@ -57,4 +92,62 @@ import Layout from '../layouts/Layout.astro'
         font-family: "Limelight";
         font-weight: bold;
     }
+    
+    .dateAndTime {
+        font-size: 4.75rem;
+        font-family: "Limelight";
+        font-weight: bold;
+    }
+
+   /* Style the polaroid containers */
+.polaroid {
+  aspect-ratio: 268/320;
+  width: 268px;
+  display: flex;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  margin: 10px;
+}
+
+/* Angle the polaroids */
+.angled.negative {
+  transform: rotate(-5deg);
+}
+
+.angled.positive {
+  transform: rotate(5deg);
+}
+
+.polaroid-content {
+  padding: 20px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.polaroid-content img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.description {
+  padding-top: 5px;
+  text-align: center;
+  color: #333;
+  font-size: 20px;
+}
+
+/* Create a container for the polaroids */
+.polaroids-container {
+  display: flex;
+  justify-content: center; /* Center-align horizontally */
+  align-items: center; 
+  margin-top: 20px;
+}
+
+
+
 </style>

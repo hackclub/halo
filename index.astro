@@ -1,0 +1,193 @@
+---
+import Layout from '../layouts/Layout.astro'
+---
+
+<Layout title="Halo">
+    <div class="haloTitle">
+        <div class="collab-container">
+            <img src='src/images/flag.svg' alt="Hack Club Flag" class="collab" />
+            <h2 class="plus">+</h2>
+            <img src='src/images/girlscouts.svg' alt="Girl Scouts" class="collab" />
+        </div>
+        <h1 class="frontpage">present...</h1>
+        <img src='src/images/halo.svg' alt="Halo" class="title" />
+        <h2 class="dateAndTime">NOVEMBER 4 • LOS ANGELES, CA</h2>
+    </div>
+
+    <div class="polaroids-container">
+        <div class="polaroid angled negative">
+          <div class="polaroid-content">
+            <img src="src/images/0.jpg" alt="Image at Assemble">
+            <div class="description">8/6/22 - Assemble, SF</div>
+          </div>
+        </div>
+      
+        <div class="polaroid angled positive">
+          <div class="polaroid-content">
+            <img src="src/images/alpine.jpeg" alt="Image at Alpine Hackathon Workshop">
+            <div class="description">7/15/23 - Alpine, SLC</div>
+          </div>
+        </div>
+      
+        <div class="polaroid angled negative">
+            <div class="polaroid-content">
+              <img src="src/images/horizon.png" alt="Image 4">
+              <div class="description">3/15/23 - Horizon, NYC</div>
+            </div>
+          </div>
+        <div class="polaroid angled positive">
+          <div class="polaroid-content">
+            <img src="src/images/epoch.jpg" alt="Image 3">
+            <div class="description">12/20/22 - Epoch, SF</div>
+          </div>
+        </div>
+      
+        <div class="polaroid angled negative">
+          <div class="polaroid-content">
+            <img src="src/images/spark.jpg" alt="Image 5">
+            <div class="description">8/12/23 - Spark, SF</div>
+          </div>
+        </div>
+      </div>
+
+    <div class="box">
+ 
+        <button class = "faq"> Do I need experience? How can I prepare?
+          <br>
+          If you’ve never coded before, have no fear! There’ll be workshops on ….
+          If you have some time before the hackathon, there is a wide variety of technologies you can learn. You can learn how to make a website using HTML/CSS and JavaScript. Or learn Python to make (insert more things they can explore to ‘prepare’)
+          </button>
+  
+   
+        <button class="faq"> 
+          <div class="fqtitle">Do I need experience? How can I prepare?</div>
+          <br>
+          If you’ve never coded before, have no fear! There’ll be workshops on ….
+          If you have some time before the hackathon, there is a wide variety of technologies you can learn. You can learn how to make a website using HTML/CSS and JavaScript. Or learn Python to make (insert more things they can explore to ‘prepare’)
+        </button>
+     
+    </div>
+    
+
+      
+
+</Layout>
+
+<style>
+    .haloTitle {
+        background-image: -webkit-gradient(
+            linear, 
+            left top,
+            left bottom, 
+            from(#ffeaa0), 
+            to(white) 
+        );
+        display: flex;
+        flex-direction: column;
+        justify-content: center; 
+        align-items: center; 
+        text-align: center;
+        height: 100vh;
+    }
+
+    .collab-container {
+        display: flex;
+        align-items: center; 
+    }
+    .plus {
+        font-size: 5rem;
+        margin: 0 1rem; 
+        font-family: "Limelight";
+        font-weight: bold;
+
+    }
+
+    .title {
+        display: block;
+    }
+
+    .frontpage {
+        font-size: 6rem; 
+        margin: 0.5rem 0; 
+        font-family: "Limelight";
+        font-weight: bold;
+    }
+    
+    .dateAndTime {
+        font-size: 4.75rem;
+        font-family: "Limelight";
+        font-weight: bold;
+    }
+
+.polaroid {
+  aspect-ratio: 268/320;
+  width: 268px;
+  display: flex;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  margin: 10px;
+}
+
+.angled.negative {
+  transform: rotate(-5deg);
+}
+
+.angled.positive {
+  transform: rotate(5deg);
+}
+
+.polaroid-content {
+  padding: 20px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.polaroid-content img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.description {
+  padding-top: 5px;
+  text-align: center;
+  color: #333;
+  font-size: 20px;
+}
+
+.polaroids-container {
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  margin-top: 20px;
+}
+
+.box{
+  
+}
+
+.faq{
+  padding: 5px;
+  border: 5px;
+  display: flex;
+  justify-content: center;
+  background-color: darkred;
+  border-radius: 25px;
+  color: white;
+  text-align: center;
+  font-size: 16px;
+  margin: 2.5%;
+  padding: 1%;
+}
+
+.fqtitle{
+  font-size: 150%;
+  text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+  color: white;
+}
+
+
+</style>

@@ -60,11 +60,21 @@ import Layout from '../layouts/Layout.astro'
   
    
         <button class="faq"> 
-          <div class="fqtitle">Do I need experience? How can I prepare?</div>
-          <br>
-          If you’ve never coded before, have no fear! There’ll be workshops on ….
-          If you have some time before the hackathon, there is a wide variety of technologies you can learn. You can learn how to make a website using HTML/CSS and JavaScript. Or learn Python to make (insert more things they can explore to ‘prepare’)
+          <div class="fqtitle">So...how does a hackathon work?</div>
+          In a hackathon you can attend workshops, make projects with friends, and have fun!
         </button>
+
+        <button class="faq">
+          How many people can be on a team?
+          <br>
+
+          We totally understand the *absolute necessity* to be in a team with your whole troop, but we recommend teams of 2-4 people. 
+          Or you can submit a solo project but still hangout with other cool people at Halo!
+        </button>
+
+
+
+
      
     </div>
     
@@ -165,22 +175,23 @@ import Layout from '../layouts/Layout.astro'
   margin-top: 20px;
 }
 
-.box{
-  
-}
 
 .faq{
   padding: 5px;
   border: 5px;
   display: flex;
   justify-content: center;
-  background-color: darkred;
+  background-color: lightblue;
   border-radius: 25px;
-  color: white;
+  color: black;
   text-align: center;
   font-size: 16px;
-  margin: 2.5%;
   padding: 1%;
+  height: 50%;
+  width: 30%;
+  display: flex;
+  margin: 1.5%;
+
 }
 
 .fqtitle{
@@ -191,3 +202,48 @@ import Layout from '../layouts/Layout.astro'
 
 
 </style>
+
+<script>
+  dragElement(document.getElementById("faq"));
+
+function dragElement(elmnt) {
+  var pos1 = 0, pos2 = 0, pos3 = 0, pos4 = 0;
+  if (document.getElementById(elmnt.id + "header")) {
+    // if present, the header is where you move the DIV from:
+    document.getElementById(elmnt.id + "header").onmousedown = dragMouseDown;
+  } else {
+    // otherwise, move the DIV from anywhere inside the DIV:
+    elmnt.onmousedown = dragMouseDown;
+  }
+
+  function dragMouseDown(e) {
+    e = e || window.event;
+    e.preventDefault();
+    // get the mouse cursor position at startup:
+    pos3 = e.clientX;
+    pos4 = e.clientY;
+    document.onmouseup = closeDragElement;
+    // call a function whenever the cursor moves:
+    document.onmousemove = elementDrag;
+  }
+
+  function elementDrag(e) {
+    e = e || window.event;
+    e.preventDefault();
+    // calculate the new cursor position:
+    pos1 = pos3 - e.clientX;
+    pos2 = pos4 - e.clientY;
+    pos3 = e.clientX;
+    pos4 = e.clientY;
+    // set the element's new position:
+    elmnt.style.top = (elmnt.offsetTop - pos2) + "px";
+    elmnt.style.left = (elmnt.offsetLeft - pos1) + "px";
+  }
+
+  function closeDragElement() {
+    // stop moving when mouse button is released:
+    document.onmouseup = null;
+    document.onmousemove = null;
+  }
+}
+</script>

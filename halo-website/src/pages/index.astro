@@ -49,6 +49,39 @@ import Layout from '../layouts/Layout.astro'
           </div>
         </div>
       </div>
+
+      <h1>Questions?</h1>
+      <div class="box-container">
+
+        <div class="box">
+          <div class="question">What is Halo?</div>
+          <div class="answer">
+            Halo is a gender-focused hackathon (social coding event) open to all Girl Scouts. We’ll come together for a day to discover the joy of code, build awesome projects, and share them with the one another!
+          </div>
+      </div>
+        <div class="box">
+            <div class="question">Do I need experience? How can I prepare?</div>
+            <div class="answer">
+                If you’ve never coded before, have no fear! There’ll be workshops on ...
+                If you have some time before the hackathon, there is a wide variety of technologies you can learn. You can learn how to make a website using HTML/CSS and JavaScript. Or learn Python to make (insert more things they can explore to ‘prepare’).
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="question">So...how does a hackathon work?</div>
+            <div class="answer">In a hackathon, you can attend workshops, make projects with friends, and have fun!</div>
+        </div>
+
+        <div class="box">
+            <div class="question">How many people can be on a team?</div>
+            <div class="answer">
+                We totally understand the *absolute necessity* to be in a team with your whole troop, but we recommend teams of 2-4 people.
+                Or you can submit a solo project but still hangout with other cool people at Halo!
+            </div>
+        </div>
+    </div>
+    
+
       
 
 </Layout>
@@ -143,6 +176,38 @@ import Layout from '../layouts/Layout.astro'
   justify-content: center; 
   align-items: center; 
   margin-top: 20px;
+}
+
+
+/* Updated CSS for the box-container and boxes */
+.box-container {
+    display: flex;
+    flex-wrap: wrap; /* Allow boxes to wrap to the next line */
+    justify-content: center; /* Center-align boxes within the container */
+    padding: 2rem;
+    max-width: 1300px;
+    margin: 0 auto; /* Center the box-container horizontally */
+}
+
+.box {
+    flex-basis: calc(33.33% - 20px); /* Adjust the width to fit 3 boxes in a row with spacing */
+    margin: 10px;
+    background-color: lightblue;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+.question {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.answer {
+    font-size: 16px;
+    text-align: left;
 }
 
 

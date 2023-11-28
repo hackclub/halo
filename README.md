@@ -7,7 +7,8 @@ On the weekend of November 4th, 9 Hack Clubbers gathered to host a 1-day hackath
 
 This repo is meant to serve as a point of reference for anyone wanting to organize their own Day of Service! If you have any other questions, reach out to [@brianna](https://hackclub.slack.com/team/U03R33X8XJB) on Slack. For more general information on how to organize a hackathon, check out [An Expandable Explanation into Hackathon Organizing](https://expandables.hackclub.dev/organizing.html) and see [how Hack Club can support you](https://hackathons.hackclub.com/)!
 
-# 🎯 The Goal 
+## 🎯 The Goal 
+
 Like past Days of Service events such as Horizon, Alpine, Spark, and Lonestar, our goal was two-fold:
 1. To support Hack Clubbers to become more technical, become better leaders, and deepen friendships through fun, collaborative coding projects.
 2. To grow Hack Club’s community so it is inclusive and accessible to teenagers of all backgrounds. We made active outreach to under-represented, marginalized gender & race minorities, who lack access to computer science programs or professional mentors in their community. 

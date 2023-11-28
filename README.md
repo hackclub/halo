@@ -1,4 +1,4 @@
-# Halo 😇 /// hiii please add you inputs in the sections with your names but also if you have an input for another sectionadd that too :))
+# Halo 😇 
 
 Halo was [Hack Club]([hackclub.com](https://hackclub.com/))'s 6th [Day of Service](https://days-of-service.hackclub.dev/), an initiative started to bridge the gender gap in technology. We organized a day of coding in partnership with a local youth organization, [The Girl Scouts of Greater Los Angeles](https://www.girlscoutsla.org/)!
 
@@ -27,8 +27,16 @@ Halo featured two workshops, each with their respective track that the girl scou
 
 {
 
+Halo had a budget of $12,370 with an approximate breakdown of
+| Item | Amount ($) |
+|------|--------|
+|✈️ Travel Stipends| 2,400 |
+|🏨 Hotel | 3,200 |
+|🥘 Dinner | 2,800 |
+|🥘 Weekend expenses | 1,500 |
+|👚 Hackathon: Swag, Decorations, Workshops | 1,400 |
 
-the budget ~Brianna
+If you're interested in checking out every transaction, our finances for Halo has been open sourced [here]([https://bank.hackclub.com/horizon](https://hcb.hackclub.com/halo-day-of-service)) through Hack Club Bank's [transparency mode](https://headwayapp.co/bank-changelog/transparent-finances-optional-feature-151427)
 
 
 }

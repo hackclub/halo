@@ -21,6 +21,7 @@ Check out pictures taken during the event by volunteers Dieter and Ava [here](ht
 
 Our special approach to worshops ~Reva/Andrea
 
+Halo featured two workshops, each with their respective track that the girl scouts could choose from. One was game dev (with Sprig, built by Hack Clubbers!), and the other was web dev with HTML and CSS. 
 
 }
 

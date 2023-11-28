@@ -1,6 +1,6 @@
 # Halo 😇 
 
-<img width="700" alt="Girl Scouts at Halo" src="https://user-images.githubusercontent.com/65808924/229817435-f2b16c71-2292-47d9-a263-397697f972e0.png](https://cloud-ja4pt40fj-hack-club-bot.vercel.app/0c1005.00_42_48_16.still023.jpg">
+![Girl Scouts at Halo.](https://cloud-ja4pt40fj-hack-club-bot.vercel.app/0c1005.00_42_48_16.still023.jpg)
 
 
 Halo was [Hack Club]([hackclub.com](https://hackclub.com/))'s 6th [Day of Service](https://days-of-service.hackclub.dev/), an initiative started to bridge the gender gap in technology. We organized a day of coding in partnership with a local youth organization, [The Girl Scouts of Greater Los Angeles](https://www.girlscoutsla.org/)!

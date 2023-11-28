@@ -4,28 +4,22 @@ Halo was [Hack Club]([hackclub.com](https://hackclub.com/))'s 6th [Day of Servic
 
 On the weekend of November 4th, 9 Hack Clubbers gathered to host a 1-day hackathon for 39 Girl Scouts who, by the end of the event, created their first coding project! 💻
 
-This repo is meant to serve as a point of reference for anyone wanting to organize their own Day of Service! If you have any other questions, reach out to [@brianna](https://hackclub.slack.com/team/U03R33X8XJB) on Slack. For more general information on how to organize a hackathon, check out [An Expandable Explanation into Hackathon Organizing](https://expandables.hackclub.dev/organizing.html)!
+This repo is meant to serve as a point of reference for anyone wanting to organize their own Day of Service! If you have any other questions, reach out to [@brianna](https://hackclub.slack.com/team/U03R33X8XJB) on Slack. For more general information on how to organize a hackathon, check out [An Expandable Explanation into Hackathon Organizing](https://expandables.hackclub.dev/organizing.html) and see [how Hack Club can support you](https://hackathons.hackclub.com/)!
+
+# 🎯 The Goal 
+Like past Days of Service events such as Horizon, Alpine, Spark, and Lonestar, our goal was two-fold:
+1. To support Hack Clubbers to become more technical, become better leaders, and deepen friendships through fun, collaborative coding projects.
+2. To grow Hack Club’s community so it is inclusive and accessible to teenagers of all backgrounds. We made active outreach to under-represented, marginalized gender & race minorities, who lack access to computer science programs or professional mentors in their community. 
 
 ## Our weekend in LA at a glance ✨
 
 | Day | Activity                                                                 |
 |-----|-------------------------------------------------------------------------|
 |🌃 Fri | Arrived in LA + Setup the venue!|
-|💻 Sat | Day of the hackathon + dinner with inspiring women |
+|💻 Sat | Day of the hackathon + dinner with inspiring women leaders|
 |🌴 Sun  | Departures + exploring LA |
 
-## Look at Us!
-Check out pictures taken during the event by volunteers Dieter and Ava [here](https://drive.google.com/drive/u/0/folders/1FUvhTYZIhmkcrb2zk91doqiVxjif_wMb)!
-
-{
-
-Our special approach to worshops ~Reva/Andrea
-
-Halo featured two workshops, each with their respective track that the girl scouts could choose from. One was game dev (with Sprig, built by Hack Clubbers!), and the other was web dev with HTML and CSS. 
-
-}
-
-{
+## 💵 The Budget
 
 Halo had a budget of $12,370 with an approximate breakdown of
 | Item | Amount ($) |
@@ -38,18 +32,11 @@ Halo had a budget of $12,370 with an approximate breakdown of
 
 If you're interested in checking out every transaction, our finances for Halo has been open sourced [here]([https://bank.hackclub.com/horizon](https://hcb.hackclub.com/halo-day-of-service)) through Hack Club Bank's [transparency mode](https://headwayapp.co/bank-changelog/transparent-finances-optional-feature-151427)
 
-
-}
+## 📸 Photography 
+Check out pictures taken during the event by volunteers Dieter and Ava [here](https://drive.google.com/drive/u/0/folders/1FUvhTYZIhmkcrb2zk91doqiVxjif_wMb)!
 
 {
 
-
-the impact we had ~Zoya/Connie
-
-
-}
-
-Interested in hosting a hackathon? Read [how Hack Club can support you](https://hackathons.hackclub.com/) and check out [An Expandable Guide to Hackathon Organizing](https://expandables.hackclub.dev/organizing.html)!
 
 ## 🗽 In Years Past
 

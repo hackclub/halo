@@ -5,7 +5,7 @@ Halo was [Hack Club]([hackclub.com](https://hackclub.com/))'s 6th [Day of Servic
 
 On the weekend of November 4th, 9 Hack Clubbers gathered to host a 1-day hackathon for 39 Girl Scouts who, by the end of the event, created their first coding project! 💻
 
-This repo is meant to serve as a point of reference for anyone wanting to organize their own Day of Service! If you have any other questions, reach out to [@brianna](https://hackclub.slack.com/team/U03R33X8XJB) on Slack. For more general information on how to organize a hackathon, check out [An Expandable Explanation into Hackathon Organizing](https://expandables.hackclub.dev/organizing.html) and see [how Hack Club can support you](https://hackathons.hackclub.com/)!
+This repo is meant to serve as a point of reference for anyone wanting to organize their own Day of Service! If you have any other questions, reach out to [@brianna] or [@nila](https://hackclub.slack.com/team/U03R33X8XJB) on Slack. For more general information on how to organize a hackathon, check out [An Expandable Explanation into Hackathon Organizing](https://expandables.hackclub.dev/organizing.html) and see [how Hack Club can support you](https://hackathons.hackclub.com/)!
 
 ## 🎯 The Goal 
 

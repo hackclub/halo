@@ -38,6 +38,14 @@ Halo had a budget of $12,370 with an approximate breakdown of
 
 If you're interested in checking out every transaction, our finances for Halo has been open sourced [here](https://hcb.hackclub.com/halo-day-of-service) through Hack Club Bank's [transparency mode](https://headwayapp.co/bank-changelog/transparent-finances-optional-feature-151427)
 
+## 💖 Our Impact
+
+At the end of Halo, each girl went home with a flourishing project they made all by themselves! One of the most common feedback we got from the girls was that they loved that they had to creatuve freedom to MAKE ANYTHING THEY WANTEED and the girls indeed did so. Seeing the girls go from never coded at all to finishing cool projects by the end of the event was seriously mind-blowing!
+
+Looking back on the event, we're proud to say that every one of the girls who joined us walked away feeling the love for programming the Hack Club team brought. We hope this made a lasting impression on the girls and will act as a gateway to more adventures in tech!
+
+We are working on documentary currently to capture our mission and impact with Halo and Days of Services so stay tuned for that!
+
 ## 📸 Photography 
 Check out pictures taken during the event by volunteers Dieter and Ava [here](https://drive.google.com/drive/u/0/folders/1FUvhTYZIhmkcrb2zk91doqiVxjif_wMb)!
 

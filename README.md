@@ -21,6 +21,10 @@ Like past Days of Service events such as Horizon, Alpine, Spark, and Lonestar, o
 |💻 Sat | Day of the hackathon + dinner with inspiring women leaders|
 |🌴 Sun  | Departures + exploring LA |
 
+## 🧩 Workshops
+
+At Halo we took a different approach to workshops. We divided the event into 2 tracks- Game Dev and Web Dev. In the start of the morning the girls got to pick which track they wanted to do. The girls then spent the first three hours learning from our Hack Club volunteers' presentation on how to build either a video game or a website, then they spent the rest of the day customising their project and making it more complex. We introduced this to combat the problem of not all attendees being able to complete a project by the end of the day. By spending an entire day working on one project they are guaranteed to have learned the proper skills to building one particular technical product!
+
 ## 💵 The Budget
 
 Halo had a budget of $12,370 with an approximate breakdown of

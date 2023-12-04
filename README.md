@@ -5,7 +5,7 @@ Halo was [Hack Club]([hackclub.com](https://hackclub.com/))'s 6th [Day of Servic
 
 On the weekend of November 4th, 9 Hack Clubbers gathered to host a 1-day hackathon for 39 Girl Scouts who, by the end of the event, created their first coding project! 💻
 
-This repo is meant to serve as a point of reference for anyone wanting to organize their own Day of Service! If you have any other questions, reach out to @brianna or [@nila](https://hackclub.slack.com/team/U03R33X8XJB) on Slack. For more general information on how to organize a hackathon, check out [An Expandable Explanation into Hackathon Organizing](https://expandables.hackclub.dev/organizing.html) and see [how Hack Club can support you](https://hackathons.hackclub.com/)!
+This repo is meant to serve as a point of reference for anyone wanting to organize their own Day of Service! If you have any other questions, reach out to [@brianna](https://hackclub.slack.com/team/U03R33X8XJB) on Slack. For more general information on how to organize a hackathon, check out [An Expandable Explanation into Hackathon Organizing](https://expandables.hackclub.dev/organizing.html) and see [how Hack Club can support you](https://hackathons.hackclub.com/)!
 
 ## 🎯 The Goal 
 
@@ -36,7 +36,7 @@ Halo had a budget of $12,370 with an approximate breakdown of
 |🥘 Weekend expenses | 1,500 |
 |👚 Hackathon: Swag, Decorations, Workshops | 1,400 |
 
-If you're interested in checking out every transaction, our finances for Halo has been open sourced [here]([https://bank.hackclub.com/horizon](https://hcb.hackclub.com/halo-day-of-service)) through Hack Club Bank's [transparency mode](https://headwayapp.co/bank-changelog/transparent-finances-optional-feature-151427)
+If you're interested in checking out every transaction, our finances for Halo has been open sourced [here](https://hcb.hackclub.com/halo-day-of-service) through Hack Club Bank's [transparency mode](https://headwayapp.co/bank-changelog/transparent-finances-optional-feature-151427)
 
 ## 📸 Photography 
 Check out pictures taken during the event by volunteers Dieter and Ava [here](https://drive.google.com/drive/u/0/folders/1FUvhTYZIhmkcrb2zk91doqiVxjif_wMb)!

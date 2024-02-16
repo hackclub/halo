@@ -40,7 +40,7 @@ If you're interested in checking out every transaction, our finances for Halo ha
 
 ## 💖 Our Impact
 
-At the end of Halo, each girl went home with a flourishing project they made all by themselves! One of the most common feedback we got from the girls was that they loved that they had to creatuve freedom to MAKE ANYTHING THEY WANTEED and the girls indeed did so. Seeing the girls go from never coded at all to finishing cool projects by the end of the event was seriously mind-blowing!
+At the end of Halo, each girl went home with a flourishing project they made all by themselves! One of the most common feedback we got from the girls was that they loved that they had to creatuve freedom to MAKE ANYTHING THEY WANTED and the girls indeed did so. Seeing the girls go from never coded at all to finishing cool projects by the end of the event was seriously mind-blowing!
 
 Looking back on the event, we're proud to say that every one of the girls who joined us walked away feeling the love for programming the Hack Club team brought. We hope this made a lasting impression on the girls and will act as a gateway to more adventures in tech!
 
